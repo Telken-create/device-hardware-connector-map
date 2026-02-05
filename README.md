@@ -100,8 +100,20 @@ To find your CPU, Type these commands
 Get-CimInstance Win32_Processor
 "{0:N2} GB" -f ((Get-CimInstance -ClassName Win32_ComputerSystem).TotalPhysicalMemory / 1GB)
 ```
+
 <img width="970" height="114" alt="image" src="https://github.com/user-attachments/assets/b158b458-f81d-4c64-8917-8591d2389b7e" />
 <img width="940" height="101" alt="image" src="https://github.com/user-attachments/assets/f5534ee2-d3a9-48f1-8ac2-1f51484bdc83" />
+
+***Find out your Storage Space***
+
+To find your storage space, Type this command
+```
+ Get-Disk | Format-Table -AutoSize
+```
+
+<img width="962" height="226" alt="image" src="https://github.com/user-attachments/assets/b2a3923e-95ca-4492-8959-f2d2da96b11a" />
+<img width="962" height="226" alt="image" src="https://github.com/user-attachments/assets/b2a3923e-95ca-4492-8959-f2d2da96b11a" />
+
 
 
 
