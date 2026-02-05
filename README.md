@@ -1,4 +1,4 @@
-## Device Overview
+## PC Overview
 My PC has been prebuilt around 2018 with decent specs.
 Here is the link https://pcpartpicker.com/user/Telken_/builds/#view=btk6Mp
 # Manufacturer:
