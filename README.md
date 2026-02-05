@@ -76,7 +76,7 @@ Get-TimeZone
 
 ***Find your PC Specs***
 
-To find list of Computer Specs, type Get-ComputerInfo on PowerShell. Then, look up you your specs
+To find list of Computer Specs, type Get-ComputerInfo on PowerShell. Then, look up your specs
 
 <img width="942" height="148" alt="image" src="https://github.com/user-attachments/assets/b15fc1a0-c95e-4247-9e89-0e0da7657a2f" />
 <img width="503" height="22" alt="image" src="https://github.com/user-attachments/assets/5167af22-d4df-43ca-84cc-6af414a1f6e8" />
