@@ -623,7 +623,7 @@ Format-Table BankLabel, Capacity, Manufacturer</code></pre>
     const li = document.createElement("li");
     const a = document.createElement("a");
     a.href = "#" + h.id;
-    a.innerHTML = ${escapeHtml(h.textContent)}<small>${escapeHtml(sectionHint(h))}</small>;
+    a.innerHTML = `${escapeHtml(h.textContent)}<small>${escapeHtml(sectionHint(h))}</small>`;
     li.appendChild(a);
     toc.appendChild(li);
   });
